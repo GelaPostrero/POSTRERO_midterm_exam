@@ -7,5 +7,6 @@ function sumArray(numbers) {
     }, 0);
   }
 
-//example
+//examples
 console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([10, 10, 10, 10, 10])); 

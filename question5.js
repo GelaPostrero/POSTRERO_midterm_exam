@@ -5,7 +5,7 @@ import express from 'express';
 const app = express();
 
 //this connects the sequelize to mysql
-const sequelize = new Sequelize('user_db', 'root', '1234', {
+const sequelize = new Sequelize('user_db', 'root', '', {
     host: 'localhost',
     dialect: 'mysql'
 });
